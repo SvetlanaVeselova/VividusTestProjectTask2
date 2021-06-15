@@ -1,0 +1,8 @@
+Composite: When I fill the registration form
+When I enter `Pavel ` in field located `By.xpath(//*[@id="displayName"])`
+When I enter `Ivanov` in field located `By.xpath(//*[@id="displayName"])`
+When I enter `12345678` in field located `By.xpath(//*[@id="password"])`
+
+Composite: When I fill the login form
+When I enter `${email10}` in field located `By.xpath(//*[@id="user"])`
+When I enter `12345678` in field located `By.xpath(//*[@id="password"])`
