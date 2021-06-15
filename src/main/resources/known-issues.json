@@ -1,2 +1,16 @@
 {
+	"TEST-111": {
+		"type": "Internal",
+		"assertionPattern": ".*An element with attributes XPath.*",
+		"storyPattern": ".*test.*",
+		"scenarioPattern": ".*Sign In scenario.*",
+		"stepPattern": ".*When I enter `12345678` in field located.*"		
+	},
+		"TEST-222": {
+		"type": "Internal",
+		"assertionPattern": ".*Expected: exists Actual: does not exist.*",
+		"storyPattern": ".*test.*",
+		"scenarioPattern": ".*Verify user Profile.*",
+		"stepPattern": ".*Подтвердите адрес электронной почты для приложения Trello.*"		
+	}
 }
